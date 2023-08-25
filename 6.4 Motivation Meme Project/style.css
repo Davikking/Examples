@@ -1,0 +1,24 @@
+ol {
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+  }
+  body{
+    background-color: black;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+  }
+#main-body{
+    width: 50%;
+    margin: 25% ;
+    color: white;
+    text-align: center;
+}  
+img{
+    border: 5px solid white;
+    width: 100%;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
