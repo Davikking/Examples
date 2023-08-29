@@ -19,11 +19,105 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+    .main-container{
+        background-color: black;
+        height: 100vh;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(13,1fr) ;
+        grid-template-rows: repeat(13, 1fr);
+    }
+   .white{
+    background-color: white;
+   }
+   #white-1{
+    order: 0;
+    grid-column: span 3;
+    grid-row: span 1;
+   }
+   #white-2{
+    order: 2;
+    grid-column: span 3;
+    grid-row: span 6;
+   }
+   #white-3{
+    order: 8;
+    grid-column: span 5;
+    grid-row: span 3;
+   }
+   #white-4{
+    order: 8;
+    grid-column: span 2;
+    grid-row: span 3;
+   }
+   #white-5{
+    order: 8;
+    grid-column: span 3;
+    grid-row: span 9;
+   }
+   #white-6{
+    order: 8;
+    grid-column: span 8;
+    grid-row: span 6;
+   }
+   .blue{
+    background-color: aqua;
+   }
+   #blue-1{
+    order: 1;
+    grid-column: span 10;
+    grid-row: span 4;
+   }
+   #blue-2{
+    order: 3;
+    grid-column: span 5;
+    grid-row: span 3;
+   }
+   #blue-3{
+    order: 4;
+    grid-column: span 5;
+    grid-row: span 3;
+   }
+   .red{
+    background-color: orangered;
+    order: 5;
+    grid-column: span 1;
+    grid-row: span 3;
+
+   }
+   .black{
+    background-color: darkslategrey;
+    order: 6;
+    grid-column: span 2;
+    grid-row: span 3;
+   }
+   
+   .yellow{
+    background-color: palegoldenrod;
+    order:10;
+    grid-column: span 2;
+    grid-row: span 6;
+   }
   </style>
 </head>
 
 <body>
   <!-- Write your HTML here -->
+  <div class="main-container">
+    <div class="box white" id="white-1"></div>
+    <div class="box white" id="white-2"></div>
+    <div class="box white" id="white-3"></div>
+    <div class="box white" id="white-4"></div>
+    <div class="box white" id="white-5"></div>
+    <div class="box white" id="white-6"></div>
+    <div class="box black"></div>
+    <div class="box yellow"></div>
+    <div class="bo red"></div>
+    <div class="box blue" id="blue-1"></div>
+    <div class="box blue" id="blue-2"></div>
+    <div class="box blue" id="blue-3"></div>
+    
+  </div>
 </body>
 
 </html>
