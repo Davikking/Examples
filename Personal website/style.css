@@ -9,9 +9,10 @@ html{
     background-color: #010f27;
 }
 .about-class > img{
-    float: right;
+    float: left;
     margin-left: 20px;
     border-radius: 50px;
+    padding-right: 20px;
 }
 .h1-item{
     align-self: center;
@@ -63,12 +64,25 @@ html{
     padding: 100px;
     text-align: left;
 }
+.about-xp{
+    padding: 200px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .selection{
     color:#010f27;
     background: linear-gradient(#4ed4e6,#76b686 );
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    justify-items: center;
 }
+
 .selection > img{
     height: 200px;
     width: 300px;
+    padding: 20px;
 }
 
