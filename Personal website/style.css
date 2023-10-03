@@ -66,6 +66,7 @@ html{
 }
 .about-xp{
     padding: 200px;
+    padding-right: 20px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
