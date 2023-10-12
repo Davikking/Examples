@@ -108,7 +108,8 @@ while(chances>=0):
         break
     time.sleep(0.5)
     print("\033[H\033[J", end="")
-if(chances==0):
+if(chances<=0):
+    print(f"The word is {word}")
     print("You lost! Better luck next time!")
     
     
